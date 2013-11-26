@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Introduction aux méthodes agiles</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/postit.css"> 
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+<!--    <link rel="stylesheet" href="css/theme/solarized.css" id="theme"> -->
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+        <section>
+          <h1>Introduction aux méthodes agiles</h1>
+        </section>
+        <section>
+          <h2>Présentation</h2>
+        </section>
+        <section>
+          <section>
+            <h2>Gestion de projet</h2>
+            Approches traditionnelles prédictives et séquentielles
+            4 variables : coût, délais, périmètre, qualité
+          </section>
+          <section>
+            <h2>Cycle en V</h2>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cycle_de_developpement_en_v.svg/1000px-Cycle_de_developpement_en_v.svg.png"">
+          </section>
+          <section>
+            <h2>Cycle en V</h2>
+            <h3> Avantages : </h3>
+            <ul><li>formalisation des fonctionnalités du produit</li>
+              <li>définit clairement comment tout va se passer</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Cycle en V</h2>
+            <h3>Inconvénients :</h3>
+            <ul>
+              <li>possible effet tunnel</li>
+              <li>peu adapté aux changements</li>
+            </ul>
+          </section>
+          </section>
+          <section>
+              <h2>le marché est en constante évolution</h2>
+              <ul>
+                <li>Réduire le coût du changement en livrant plus souvent
+                <li>Diminuer l'effet tunnel
+              </ul>
+          </section>
+          <section>
+            <section>
+              <img src="http://www.agileinone.net/wp-content/uploads/2010/11/Agile-principle-word-cloud.jpg">
+              </section>
+            <section>
+              <h2>17 personnes</h2>
+              <center><table cellpadding=15><tr align=center valign=top>
+                    <td><font size="+2">
+                        <td><font size="+2">
+                            Kent Beck<br>
+                            Mike Beedle<br>
+                            Arie van Bennekum<br>
+                            Alistair Cockburn<br>
+                            Ward Cunningham<br>
+                            Martin Fowler<br>
+                        </font></td>
+
+                        <td><font size="+2">
+
+                            James Grenning<br>
+                            Jim Highsmith<br>
+                            Andrew Hunt<br>
+                            Ron Jeffries<br>
+                            Jon Kern<br>
+                            Brian Marick<br>
+                        </font></td>
+
+                        <td><font size="+2">
+                            Robert C. Martin<br>
+
+                            Steve Mellor<br>
+                            Ken Schwaber<br>
+                            Jeff Sutherland<br>
+                            Dave Thomas<br>
+                        </font></td>
+              </tr></table></center>
+            </section>
+            <section>
+            <h2>Manifeste pour le développement Agile de logiciels</h2>
+            <a href="http://agilemanifesto.org">Agile manifesto</a>
+            </section>
+            <section>
+            <h2>Manifeste pour le développement Agile de logiciels</h2>
+            <br>
+            <font size="+2">
+              Nous découvrons comment mieux développer des logiciels<br>par la pratique et en aidant les autres à le faire.<br>Ces expériences nous ont amenés à valoriser :<br>
+            </font>
+              <p>
+                <font size="+2"></font><font size="+3">Les individus et leurs interactions </font><font size="+2">plus que les processus et les outils<br></font><font size="+2"></font><font size="+3">Des logiciels opérationnels </font><font size="+2">plus qu’une documentation exhaustive<br></font><font size="+2"></font><font size="+3">La collaboration avec les clients  </font><font size="+2">plus que la négociation contractuelle<br></font><font size="+2"></font><font size="+3">L’adaptation au changement </font><font size="+2">plus que le suivi d’un plan<br></font>
+
+              <p>
+                <font size="+2">
+                  Nous reconnaissons la valeur des seconds éléments,<br>mais privilégions les premiers.<br>
+                </font>
+            </section>
+            <section>
+<h2>12 principes</h2>
+
+<p><font size="+3">
+Notre plus haute priorité est de satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée.
+</font></p>
+
+<p><font size="+3">
+Accueillez positivement les changements de besoins, même tard dans le projet. Les processus Agiles exploitent le changement  pour donner un avantage compétitif au client.
+</font></p>
+
+<p><font size="+3">
+Livrez fréquemment un logiciel opérationnel avec des cycles de quelques semaines à quelques mois et une préférence pour les plus courts.
+</font></p>
+
+</section>
+<section>
+<p><font size="+3">
+Les utilisateurs ou leurs représentants et les développeurs doivent travailler ensemble quotidiennement tout au long du projet.
+</font></p>
+
+<p><font size="+3">
+Réalisez les projets avec des personnes motivées. Fournissez-leur l’environnement et le soutien dont ils ont besoin et faites-leur confiance pour atteindre les objectifs fixés.
+</font></p>
+
+<p><font size="+3">
+La méthode la plus simple et la plus efficace pour transmettre de l’information à l'équipe de développement et à l’intérieur de celle-ci est le dialogue en face à face.
+</font></p>
+
+<p><font size="+3">
+Un logiciel opérationnel est la principale mesure d’avancement.
+</font></p>
+
+</section>
+<section>
+<p><font size="+3">
+Les processus Agiles encouragent un rythme de développement  soutenable. Ensemble, les commanditaires, les développeurs et les utilisateurs devraient être capables de maintenir indéfiniment un rythme constant.
+</font></p>
+
+<p><font size="+3">
+Une attention continue à l'excellence technique et à une bonne conception renforce l’Agilité.
+</font></p>
+
+<p><font size="+3">
+La simplicité – c’est-à-dire l’art de minimiser la  quantité de travail inutile – est essentielle.
+</font></p>
+
+<p><font size="+3">
+Les meilleures architectures, spécifications et  conceptions émergent d'équipes autoorganisées.
+</font></p>
+
+<p><font size="+3">
+À intervalles réguliers, l'équipe réfléchit aux moyens de devenir plus efficace, puis règle et modifie son comportement en conséquence.
+</font></p>
+</section>
+</section>
+<section>
+  <h2>Méthodes agiles</h2>
+  <ul>
+     <li>Extreme Programming
+     <li>Crystal Clear
+     <li>Rapid Application Development
+     <li>Adaptive software development
+     <li>Crystal clear
+     <li>Scrum
+  </ul>
+</section>
+  <section>
+    <h2>Scrum</h2>
+      <h4>Ken Schwaber et Jeff Sutherland en 1995</h4>
+    <ul>
+      <li>1 outil, 3 rôles, 5 réunions, 3 artifacts
+      <li>une méthode itérative
+      <li>une méthode incrémentale
+    </ul>
+      <blockquote>it's just common sense</blockquote>
+  </section>
+<section>
+  <section>
+    <h2>Rôles</h2>
+    <ul>
+      <li>Propriétaire du produit - Product Owner</li>
+      <li>Équipe de réalisation</li>
+      <li>ScrumMaster</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Product Owner (PO)</h2>
+    <ul>
+      <li>est le responsable du produit</li>
+      <li>définit ces fonctionnalités</li>
+      <li>les ordonne</li>
+  </section>
+  <section>
+    <h2>Équipe de réalisation</h2>
+    <ul>
+      <li>Pluridisciplinaire
+      <li>Auto-organisée
+    </ul>
+  </section>
+  <section>
+    <h2>ScrumMaster</h2>
+    <ul>
+      <li>garant de l'application et des pratiques
+      <li>protège l'équipe de les facteurs extérieurs
+      <li>facilite les évenements scrum
+      <li>accompagne l'équipe dans son amélioration continue
+    </ul>
+  </section>
+</section>
+<section>
+  <section>
+    <h2>Réunions</h2>
+    <ul>
+      <li>Itération</li>
+      <li>Planning</li>
+      <li>Mélée</li>
+      <li>Point de visibilité des développements</li>
+      <li>Rétrospective</li>
+    </ul>
+    </section>
+  <section>
+    <img src="http://upload.wikimedia.org/wikipedia/commons/8/89/VueGlobaleScrum.png">
+    </section>
+  <section>
+    <h2>Itération - Sprint</h2>
+    <ul>
+      <li>une unité de temps dans laquelle l'équipe délivre un incrément du produit</li>
+    </ul>
+    </section>
+  <section>
+    <h2>Planning</h2>
+    <ul>
+      <li>l'incrément du produit est déterminé</li>
+      <li>les items de l'itération sont explicités et estimés</li>
+    </ul>
+    </section>
+  <section>
+    <h2>Mélée - Daily</h2>
+    <ul>
+      <li>quotidien
+      <li>15 minutes
+        <li>3 questions
+          <ul>
+            <li>Qu'est-ce que j'ai fait depuis le dernier daily ?
+            <li>Qu'est-ce que j'ai l'intention de faire d'ici le prochain daily ?
+            <li>Qu'est-ce qui me bloque ?
+              </ul>
+          <li>Point de synchronisation d'une équipe auto-organisée
+          </ul>
+    </section>
+  <section>
+    <h2>Point de visibilité des développements</h2>
+    <h4>(Sprint review ou Démo)</h4>
+    <ul>
+      <li>l'incrément est montré au PO</li>
+      <li>l'équipe reçoit des retours sur cet incrément</li>
+    </ul>
+    </section>
+  <section>
+    <h2>Rétrospective</h2>
+    <ul>
+      <li>L'équipe donne ces retours</li>
+      <ul>
+        <li>qu'est-ce qui a bien fonctionné ?</li>
+        <li>qu'est-ce qui n'a pas fonctionné ?</li>
+        <li>...</li>
+      </ul>
+    </ul>
+    </section>
+  <section>
+    <img src="http://upload.wikimedia.org/wikipedia/commons/8/89/VueGlobaleScrum.png">
+    </section>
+</section>
+<section>
+<section>
+  <h2>Artifacts</h2>
+    <ul>
+      <li>Product backlog</li>
+      <li>Sprint backlog</li>
+      <li>Incrément</li>
+    </ul>
+</section>
+    <section>
+      <h2>Product Backlog</h2>
+        <h3>Carnet de Produit</h3>
+            Ensemble des histoires utilisateurs ordonnées définissant le produit
+            sous la responsabilité du PO
+      </section>
+    <section>
+      <h2>Product Backlog</h2>
+            <img src="img/product_backlog.png">
+      </section>
+    <section>
+      <h2>Sprint Backlog</h2>
+        <h3>Carnet de Sprint</h3>
+            <ul>
+                <li>Ensemble des histoires utilisateurs planifiées pour une itération
+                <li>sous la responsabilité de l'équipe de développement (découpées en taches)
+    </section>
+    <section>
+      <h2>Incrément</h2>
+        Ensemble de tous les items du backlog product terminés pendant l'itération
+        additionné de tous les items terminés des sprints précédents.
+    </section>
+  </section>
+<section>
+  <section>
+    <h2>Comment cela fonctionne ?</h2>
+  </section>
+  <section>
+    Expression du besoin à l'aide d'histoires utilisateurs User Story
+    Burndown Chart et calcul de la Vélocité pour le prévisionnel
+  </section>
+  <section>
+    <h2>Histoires utilisateurs</h2>
+<div class="postit">
+<font size=+2 color="black">
+en tant qu'acheteur, je veux pouvoir donner un avis sur le livre
+que j'ai acheté afin d'enrichir la base des avis
+</font>
+<br>
+<br>
+<font color="black">5 pts</font>
+</div>
+  </section>
+  <section>
+    <h2>Histoires utilisateurs</h2>
+    <h3>INVEST</h3>
+    <ul>
+    <li>Indépendante des autres
+    <li>Négociable initialement, plutôt qu'un engagement ferme
+        <li>Verticale, ou ayant de la valeur en soit
+        <li>Evaluée en termes de complexité relative
+        <li>Suffisamment petite (en anglais Small)
+        <li>Testable en principe, ce qu'on vérifie en écrivant un test
+  </section>
+  <section>
+    <h2>Definition of Done</h2>
+    <blockquote>une liste de critères génériques qui conditionnent le fait de pouvoir considérer un incrément comme "fini"</blockquote>
+</section>
+<section>
+    <h2>TaskBoard</h2>
+    <img src="img/taskboard.png">
+  </section>
+  <section>
+    <h2>Vélocité</h2>
+    A la fin d'une itération, l'équipe additionne les estimations associées aux user stories qui ont été terminées au cours de cette itération. Ce total est appelé vélocité. Elle permet valider ou réviser la planification de l'ensemble du projet.
+  </section>
+<section>
+    <h2>Vélocité</h2>
+<img src="img/evolution_de_la_vélocité_moyenne.png">
+   </section>
+   <section>
+    <h2>Vélocité</h2>
+<img src="img/3900_vélocité.png">
+  </section>
+<section>
+     <h2>Burndown Chart</h2>
+<img src="img/product_burndown.png">
+  </section>
+</section>
+<section>
+  <section>
+    <h2>Extreme Programming</h2>
+    <h4>Kent Beck, Ward Cunningham et Ron Jeffries</h4>
+ </section>
+ <section>
+    <h2>Extreme Programming</h2>
+    <blockquote>"Il est possible d'empêcher le coût du changement d'augmenter dramatiquement avec le temps"</blockquote>
+ </section>
+  <section>
+    <h2>Valeurs</h2>
+    <ul>
+        <li>Communication
+        <li>Simplicité
+        <li><i>Feedback</i>
+        <li>Courage
+        <li>Respect
+ </section>
+  <section>
+<h2>Pratiques XP</h2>
+<ul>
+<li>Client sur site
+<li>Planning poker
+<li>Intégration continue
+<li>Petites livraisons
+</ul>
+  </section>
+  <section>
+<h2>Pratiques XP</h2>
+<ul>
+<li>Rythme soutenable
+<li>Tests de recette (ou tests fonctionnels)
+<li>Tests unitaires
+<li>Conception simple
+</ul>
+  </section>
+  <section>
+<h2>Pratiques XP</h2>
+<ul>
+<li>Utilisation de métaphores
+<li>Refactoring (ou remaniement du code)
+<li>Appropriation collective du code
+<li>Convention de nommage
+<li>Programmation en binôme
+</ul>
+ </section>
+</section>
+ <section>
+<section>
+<h2>Qu'est-ce qui se cache derrière ces acronymes ?</h2>
+<ul>
+    <li>KISS
+    <li>SRP
+    <li>DDD
+    <li>YAGNI
+    <li>DRY
+</ul>
+</section>
+<section>
+<h2>Bonnes pratiques</h2>
+<ul>
+    <li>KISS : Keep It Simple, Stupid
+    <li>SRP : Single Responsability Principle
+    <li>DDD : Domain Driven Design
+    <li>YAGNI : You ain't gonna need it (vous n'en aurez pas besoin)
+    <li>DRY : Don't repeat yourself
+</ul>
+</section>
+</section>
+<section>
+<section>
+    <h2>Changer d'attitude <br>face aux problèmes</h2>
+</section>
+<section>
+    <h2>Changer d'attitude <br>face aux problèmes</h2>
+<ul>
+<li>Essayer essayer essayer, persévérer
+<li>Se tromper : échouer c'est réussir
+<li>Différer la décision
+<li>Demander de l'aide
+<li>Règle du boy-scout
+</ul>
+    <blockquote>"Laissez le campement plus propre que vous ne l'avez trouvé en arrivant"</blockquote>
+</section>
+</section>
+<section>
+<section>
+    <h2>Pratiques d'ingénieries</h2>
+<ul>
+<li>Tests unitaires
+<li>Intégration Continue
+<li>Test Driven Development - Red / Green / Refactor
+<li>Design incrémental
+<li>Binomage, revue de code
+<li>S'entrainer (kata, randori, open source)
+<li>time-boxing, pomodoro
+<li>déploiement continu
+</ul>
+</section>
+<section>
+    <h2>Pratiques d'ingénieries</h2>
+    <h3>Test Driven Development</h3>
+    <img src="img/TestDrivenGameDevelopment.png">
+</section>
+<section>
+<ol>    <li>créer un seul test unitaire décrivant un aspect du programme
+    <li>s'assurer, en l'exécutant, que ce test échoue pour les bonnes raisons
+    <li>écrire juste assez de code, le plus simple possible, pour que ce test passe
+    <li>remanier le code autant que nécessaire pour se conformer aux critères de simplicité
+    <li>recommencer, en accumulant les tests au fur et à mesure
+</ol>
+</section>
+<section>
+    <img src="img/TDD_all_code_is_guilty_until_proven_innocent.jpg">
+</section>
+<section>
+<h2>Les outils</h2>
+<ul>
+<li>Tests Unitaires: bibliothèque xUnit
+<li>IC : jenkins, cruise control, teamcity
+<li>Couverture de code : cobertura, emma, clover
+<li>Tests fonctionnels : selenium, fitnesse, ...
+</section>
+</section>
+<section>
+            <section>
+            <h2>Manifeste pour le développement Agile de logiciels</h2>
+            <br>
+            <font size="+2">
+              Nous découvrons comment mieux développer des logiciels<br>par la pratique et en aidant les autres à le faire.<br>Ces expériences nous ont amenés à valoriser :<br>
+            </font>
+              <p>
+                <font size="+2"></font><font size="+3">Les individus et leurs interactions </font><font size="+2">plus que les processus et les outils<br></font><font size="+2"></font><font size="+3">Des logiciels opérationnels </font><font size="+2">plus qu’une documentation exhaustive<br></font><font size="+2"></font><font size="+3">La collaboration avec les clients  </font><font size="+2">plus que la négociation contractuelle<br></font><font size="+2"></font><font size="+3">L’adaptation au changement </font><font size="+2">plus que le suivi d’un plan<br></font>
+
+              <p>
+                <font size="+2">
+                  Nous reconnaissons la valeur des seconds éléments,<br>mais privilégions les premiers.<br>
+                </font>
+            </section>
+</section>
+<section>
+  <section>
+    <h2>Quelques références en ligne</h2>
+    <ul>
+    <li><a href="http://institut-agile.fr/">Institut agile</a>
+    <li><a href="https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum%20Guide%20-%20FR.pdf">Scrum book</a>
+    <li><a href="http://www.infoq.com/minibooks/scrum-xp-from-the-trenches">Scrum et XP depuis les Tranchées"" -Henrik Kniberg</a>
+</ul>
+  </section>
+  <section>
+    <h2>Livres</h2>
+    <ul>
+      <li>“Le mythe du mois-homme” <font size=+1>Frederick P. Brooks</font>
+      <li>“Gestion de projet eXtreme Programming” <font size=+1>Jean-Louis Bénard, Laurent Bossavit, Régis Médina, Dominic Williams</font>
+      <li>"Agile Project Management with Scrum" <font size=+1>Ken Schwaber</font>
+      <li>"Agile Retrospectives: Making Good Teams Great" <font size=+1>Esther Derby and Diana Larsen</font>
+</ul>
+  </section>
+  <section>
+    <h2>Pratiques d'ingénieries"</h2>
+    <ul>
+      <li>“Clean Code” <font size=+1>Robert C. Martin</font>
+      <li>“Refactoring: Improving the Design of Existing Code” <font size=+1>Martin Fowler, Kent Beck</font>
+      <li>"Practices of an Agile Developer" <font size=+1>Venkat Subramaniam, Andy Hunt</font>
+      <li>"DDD" <font size=+1>Eric Evans</font>
+    </ul>
+  </section>
+  <section>
+    <h2>En relation avec l'agilité (ou pas)</h2>
+    <ul>
+      <li><a href="http://www.mccarthyshow.com/online/">Core Protocols</a> <font size=+1>Jim and Michele McCarthy</font>
+      <li>Mouvement devops
+      <li>lean software management
+      <li>lean startup
+    </ul>
+  </section>
+  <section>
+    <h2>Livres</h2>
+        <ul>
+          <li>"Lean Startup" <font size=+1>Eric Ries</font>
+          <li>"La pratique du lean management dans l'IT" <font size=+1>Marie-Pia Ignace, Christian Ignace, Regis Médina, Antoine Contal</font>
+        </ul>
+  </section>
+</section>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+      });
+
+    </script>
+
+  </body>
+</html>
