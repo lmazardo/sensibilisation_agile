@@ -42,3 +42,9 @@ box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
 transform: matrix(-1, -0.1, 0, 1, 0, 0);
 } 
 
+div.post-id{
+	font-size: 20px;
+	text-align: right;
+	color: blue;
+  	margin: 5px;    
+}
