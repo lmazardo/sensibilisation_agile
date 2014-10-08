@@ -249,23 +249,34 @@
 <section>
   <h2>Méthodes agiles</h2>
   <ul>
+     <li>Scrum
      <li>Extreme Programming
      <li>Crystal Clear
      <li>Rapid Application Development
      <li>Adaptive software development
-     <li>Scrum
   </ul>
 </section>
+<section>
   <section>
     <h2>Scrum</h2>
       <h4>Ken Schwaber et Jeff Sutherland en 1995</h4>
+    <blockquote>Scrum (n)
+: un cadre de travail permettant de répondre à des problèmes complexes et
+changeants, tout en livrant de manière productive et créative des produits de la plus
+grande
+valeur possible
+</blockquote>
+  </section>
+  <section>
+    <h2>Scrum</h2>
     <ul>
-      <li>1 outil : 3 rôles, 5 événements, 3 artifacts
+      <li>3 rôles, 5 événements, 3 artifacts
       <li>une méthode itérative
       <li>une méthode incrémentale
     </ul>
       <blockquote>it's just common sense</blockquote>
   </section>
+</section>
 <section>
   <section>
     <h2>Rôles</h2>
@@ -316,16 +327,14 @@
 <section>
   <section>
     <h2>Événements</h2>
+    <h4>timeboxés</h4>
     <ul>
-      <li>Itération</li>
-      <li>Planning</li>
-      <li>Mêlée</li>
-      <li>Point de visibilité des développements</li>
-      <li>Rétrospective</li>
+      <li>Sprint</li>
+      <li>Planification de Sprint</li>
+      <li>Mêlée quotidienne</li>
+      <li>Revue du Sprint</li>
+      <li>Rétrospective de Sprint</li>
     </ul>
-    </section>
-  <section>
-    <img src="img/VueGlobaleScrum.png">
     </section>
   <section>
     <h2>Itération</h2>
@@ -335,7 +344,7 @@
     </ul>
     </section>
   <section>
-    <h2>Planning</h2>
+    <h2>Planification de Sprint</h2>
     <ul>
       <li>l'incrément du produit est déterminé</li>
       <li>les items de l'itération sont explicités et estimés</li>
@@ -357,8 +366,7 @@
           </ul>
     </section>
   <section>
-    <h2>Point de visibilité des développements</h2>
-    <h4>(Sprint review ou Démo)</h4>
+    <h2>Revue de Sprint</h2>
     <ul>
       <li>l'incrément est montré au Product Owner</li>
       <li>l'équipe reçoit des retours sur cet incrément</li>
@@ -374,6 +382,21 @@
         <li>...</li>
       </ul>
       <li>Occasion de mettre en pratique l'amélioration continue</li>
+      <ul><li>revoir le mode de fonctionnement de l'équipe</li>
+          <li>prendre des actions ou décisions d'équipe</li>
+          <li>...</li>
+      </ul>
+    </ul>
+    </section>
+  <section>
+    <h2>Événements renommés</h2>
+    <h4>timeboxés</h4>
+    <ul>
+      <li>Itération</li>
+      <li>Planning</li>
+      <li>Mêlée</li>
+      <li>Point de visibilité des développements</li>
+      <li>Rétrospective</li>
     </ul>
     </section>
   <section>
@@ -395,7 +418,7 @@
     <section>
       <h2>Product Backlog</h2>
         <h3>Carnet de Produit</h3>
-            Ensemble des histoires utilisateurs ordonnées définissant le produit
+            Ensemble des items (histoires utilisateurs) ordonnés définissant le produit
             sous la responsabilité du PO
       </section>
     <section>
@@ -406,9 +429,13 @@
       <h2>Sprint Backlog</h2>
         <h3>Carnet de Sprint</h3>
             <ul>
-                <li>Ensemble des histoires utilisateurs planifiées pour une itération
-                <li>sous la responsabilité de l'équipe de développement (découpées en taches)
+                <li>Ensemble des items (histoires utilisateurs) planifiées pour une itération
+                <li>sous la responsabilité de l'équipe de développement 
     </section>
+    <section>
+      <h2>Sprint Backlog</h2>
+            <img src="img/sprint_backlog.png">
+      </section>
     <section>
       <h2>Incrément</h2>
         Ensemble de tous les items du backlog product terminés pendant l'itération
@@ -420,8 +447,28 @@
     <h2>Comment cela fonctionne ?</h2>
   </section>
   <section>
-    Expression du besoin à l'aide d'histoires utilisateurs (User Story)
-    Burndown Chart et calcul de la vélocité pour le prévisionnel
+    <ul>
+    <li>Expression du besoin : 
+        <ul>
+            <li>histoires utilisateurs (User Story, item)
+            <li>découpées en tache si besoin
+        </ul>
+    <li>Prévisionnel :
+        <ul>
+            <li>basé sur le constat : Burndown Chart et calcul de la vélocité 
+        </ul>
+        </ul>
+  </section>
+  <section>
+    <h2>Histoires utilisateurs</h2>
+    <h3>INVEST</h3>
+    <ul>
+    <li>Indépendante des autres
+    <li>Négociable initialement, plutôt qu'un engagement ferme
+        <li>Verticale, ou ayant de la valeur en soit
+        <li>Evaluée en termes de complexité relative
+        <li>Suffisamment petite (en anglais Small)
+        <li>Testable en principe, ce qu'on vérifie en écrivant un test
   </section>
   <section>
     <h2>Histoires utilisateurs</h2>
@@ -434,17 +481,6 @@ que j'ai acheté afin d'enrichir la base des avis
 <br>
 <font color="black">5 pts</font>
 </div>
-  </section>
-  <section>
-    <h2>Histoires utilisateurs</h2>
-    <h3>INVEST</h3>
-    <ul>
-    <li>Indépendante des autres
-    <li>Négociable initialement, plutôt qu'un engagement ferme
-        <li>Verticale, ou ayant de la valeur en soit
-        <li>Evaluée en termes de complexité relative
-        <li>Suffisamment petite (en anglais Small)
-        <li>Testable en principe, ce qu'on vérifie en écrivant un test
   </section>
   <section>
     <h2>Test d'histoire fonctionnelle</h2>
@@ -500,10 +536,6 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
     <h2>Vélocité</h2>
 <img src="img/velocity.png">
   </section>
-<section>
-     <h2>Burndown Chart</h2>
-<img src="img/product_burndown.png">
-  </section>
 </section>
 <section>
   <section>
@@ -528,8 +560,8 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
 	<ul>
    		<li>Client sur site
    		<li>Planning poker
-   		<li>Intégration continue
    		<li>Petites livraisons
+		<li>Utilisation de métaphores
    	</ul>
   </section>
 
@@ -537,16 +569,16 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
 	<h2>Pratiques XP</h2>
 	<ul>
 		<li>Rythme soutenable
-		<li>Tests de recette (ou tests fonctionnels)
 		<li>Tests unitaires
-		<li>Conception simple
+		<li>Tests de recette (ou tests fonctionnels)
+   		<li>Intégration continue
 	</ul>
   </section>
 
   <section>
 	<h2>Pratiques XP</h2>
 	<ul>
-		<li>Utilisation de métaphores
+		<li>Conception simple
 		<li>Refactoring (ou remaniement du code)
 		<li>Appropriation collective du code
 		<li>Convention de nommage
@@ -561,7 +593,7 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
 	<ul>
     	<li>KISS
     	<li>SRP
-    	<li>DDD
+    	<li>TDD
     	<li>YAGNI
     	<li>DRY
 	</ul>
@@ -572,7 +604,7 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
 	<ul>
     	<li>KISS : Keep It Simple, Stupid
     	<li>SRP : Single Responsability Principle
-    	<li>DDD : Domain Driven Design
+    	<li>TDD : Test Driven Development
     	<li>YAGNI : You ain't gonna need it (vous n'en aurez pas besoin)
     	<li>DRY : Don't repeat yourself
 	</ul>
@@ -613,12 +645,7 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
 	</section>
 
 	<section>
-    	<h2>Pratiques d'ingénieries</h2>
-    	<h3>Test Driven Development</h3>
-    	<img src="img/TestDrivenGameDevelopment.png">
-	</section>
-
-	<section>
+    	<h2>Test Driven Development</h2>
 		<ol>
 			<li>créer un seul test unitaire décrivant un aspect du programme
 		    <li>s'assurer, en l'exécutant, que ce test échoue pour les bonnes raisons
@@ -627,7 +654,10 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
 		    <li>recommencer, en accumulant les tests au fur et à mesure
 		</ol>
 	</section>
-
+	<section>
+    	<h2>Test Driven Development</h2>
+    	<img src="img/TestDrivenGameDevelopment.png">
+	</section>
 	<section>
     	<img src="img/TDD_all_code_is_guilty_until_proven_innocent.jpg">
 	</section>
@@ -636,8 +666,8 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
 		<h2>Les outils</h2>
 		<ul>
 			<li>Tests Unitaires: bibliothèque xUnit
-			<li>IC : jenkins, cruise control, teamcity
-			<li>Couverture de code : cobertura, emma, clover
+			<li>IC : jenkins, cruise control, teamcity, travis, wercker
+			<li>Couverture/Revue de code : cobertura, emma, clover
 			<li>Tests fonctionnels : selenium, fitnesse, ...
 	</section>
 </section>
@@ -676,13 +706,13 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
     <h2>Quelques références en ligne</h2>
     <ul>
 	    <li><a href="http://institut-agile.fr/">Institut agile</a>
-	    <li><a href="https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum%20Guide%20-%20FR.pdf">Scrum book</a>
+	    <li><a href="https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum%20Guide%20-%20FR.pdf">Scrum Guide</a>
 	    <li><a href="http://www.infoq.com/minibooks/scrum-xp-from-the-trenches">Scrum et XP depuis les Tranchées - Henrik Kniberg</a>
 	</ul>
   </section>
 
   <section>
-    <h2>Livres</h2>
+    <h2>Livres sur les méthodes</h2>
     <ul>
       <li>“Le mythe du mois-homme” <font size=+1>Frederick P. Brooks</font>
       <li>“Agile Retrospectives: Making Good Teams Great” <font size=+1>Esther Derby and Diana Larsen</font>
