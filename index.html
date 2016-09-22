@@ -330,10 +330,10 @@ grande valeur possible
             <img style="border:none; box-shadow:none" height="16%" width="16%" src="img/chicken.png"> <br><h2>?</h2>
     </section>
     <section>
-            <span class="fragment">membre de l'équipe de réalisation</span>&nbsp;<img height="6%" width="6%" class="fragment" src="img/cochon.jpg"> <br> 
-            <span class="fragment">ScrumMaster</span>&nbsp;<img height="4%" width="4%" class="fragment" src="img/cochon.jpg"> <br> 
             <span class="fragment">Product Owner</span>&nbsp;<img height="6%" width="6%" class="fragment" src="img/cochon.jpg"> <br> 
+            <span class="fragment">membre de l'équipe de réalisation</span>&nbsp;<img height="6%" width="6%" class="fragment" src="img/cochon.jpg"> <br> 
             <span class="fragment">Manager</span> <img style="border:none; box-shadow:none" class="fragment" height="6%" width="6%" src="img/chicken.png"> <br>
+            <span class="fragment">ScrumMaster</span>&nbsp;<img height="4%" width="4%" class="fragment" src="img/cochon.jpg"> <br>
 
     </section>
 </section>
@@ -358,6 +358,7 @@ grande valeur possible
     </section>
   <section>
     <h2>Planification de Sprint</h2>
+    <h4>Sprint Planning</h4>
     <ul>
       <li>l'incrément du produit est déterminé</li>
       <li>les items de l'itération sont explicités et estimés</li>
@@ -365,8 +366,9 @@ grande valeur possible
     </section>
   <section>
     <h2>Mêlée</h2>
-    <h4>(Daily Scrum Meeting)</h4>
+    <h4>Daily Scrum Meeting</h4>
     <ul>
+      <li>Point de synchronisation d'une équipe auto-organisée
       <li>quotidien
       <li>15 minutes
         <li>3 questions
@@ -374,12 +376,12 @@ grande valeur possible
             <li>Qu'est-ce que j'ai fait depuis le dernier daily ?
             <li>Qu'est-ce que j'ai l'intention de faire d'ici le prochain daily ?
             <li>Qu'est-ce qui me bloque ?
-              </ul>
-          <li>Point de synchronisation d'une équipe auto-organisée
           </ul>
+      </ul>
     </section>
   <section>
     <h2>Revue de Sprint</h2>
+    <h4>Sprint review</h4>
     <ul>
       <li>l'incrément est montré au Product Owner</li>
       <li>l'équipe reçoit des retours sur cet incrément</li>
@@ -387,6 +389,7 @@ grande valeur possible
     </section>
   <section>
     <h2>Rétrospective</h2>
+    <h4>Sprint Retrospective</h4>
     <ul>
       <li>L'équipe s'interroge sur </li>
       <ul>
@@ -421,7 +424,7 @@ grande valeur possible
 </section>
 <section>
 <section>
-  <h2>Artifacts</h2>
+  <h2>Artifacts de scrum</h2>
     <ul>
       <li>Product backlog</li>
       <li>Sprint backlog</li>
@@ -454,6 +457,9 @@ grande valeur possible
         Ensemble de tous les items du sprint backlog terminés pendant l'itération
         additionné de tous les items terminés des sprints précédents.
     </section>
+  <section>
+    <img src="img/scrum_iterations_artifacts.svg" width="70%" height="70%" />
+    </section>
   </section>
 <section>
   <section>
@@ -474,32 +480,44 @@ grande valeur possible
   </section>
   <section>
     <h2>Histoires utilisateurs</h2>
-    <h3>INVEST</h3>
-    <ul>
-        <li>Indépendante des autres
-        <li>Négociable initialement, plutôt qu'un engagement ferme
-        <li>Verticale, ou ayant de la valeur en soit
-        <li>Evaluée en termes de complexité relative
-        <li>Suffisamment petite (en anglais Small)
-        <li>Testable en principe, ce qu'on vérifie en écrivant un test
+    <ul style="list-style-type: none;">
+        <li><font color=black><b>I</b></font>ndépendante des autres
+        <li><font color=black><b>N</b></font>égociable initialement, plutôt qu'un engagement ferme
+        <li><font color=black><b>V</b></font>erticale, ou ayant de la valeur en soit
+        <li><font color=black><b>E</b></font>valuée en termes de complexité relative
+        <li><font color=black><b>S</b></font>uffisamment petite (en anglais Small)
+        <li><font color=black><b>T</b></font>estable en principe, ce qu'on vérifie en écrivant un test
   </section>
   <section>
     <h2>Histoires utilisateurs</h2>
 <div class="postit">
 <div class="post-id">[BIB-13]</div>
 <font size=+2 color="black">
-en tant qu'acheteur, je peux donner un avis sur le livre
-que j'ai acheté afin d'enrichir la base des avis
+<b>en tant que</b> client, <b>je peux</b> donner un avis sur le livre
+que j'ai acheté <b>afin de</b> compléter/enrichir la base des avis
 </font>
 <br>
 <font color="black">5 pts</font>
 </div>
+<br><br>
+<font size=+1 >(utilisation d'un formalisme <b>en tant que</b>..., <b>je peux</b>... <b>afin de</b>...)</font>
   </section>
   <section>
     <h2>Test d'histoire fonctionnelle</h2>
 <div class="postit">
+<div class="post-id">[BIB-13]</div>
+<font size=+2 color="black">
+<b>en tant que</b> client, <b>je peux</b> donner un avis sur le livre
+que j'ai acheté <b>afin de</b> compléter/enrichir la base des avis
+</font>
+<br>
+<font color="black">5 pts</font>
+</div>
+<br><br>
+<div class="postit">
 <font size=+2 color="black">
 <br>
+<b>Test de validation</b>
 <br>
 Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un avis sur le livre <i>Y</i>
 </font>
@@ -513,12 +531,6 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
 <section>
     <h2>TaskBoard</h2>
     <img src="img/taskboard_nfc.png">
-  </section>
-  <section>
-    <h2>Vélocité</h2>
-    A la fin d'une itération, l'équipe <font color="yellow">additionne les estimations</font> associées aux user stories qui ont été <font color="yellow">terminées</font> au cours de cette itération.
-<br>Ce total est appelé vélocité. 
-<br>Elle permet valider ou réviser la planification de l'ensemble du projet.
   </section>
   <section>
     <h2>Definition of Done</h2>
@@ -541,6 +553,12 @@ Je vérifie que dans la base des avis que l'acheteur <i>X</i> a bien donné un a
         <li>...</li>
     </ul>   
 </section>
+  <section>
+    <h2>Vélocité</h2>
+    A la fin d'une itération, l'équipe <font color="yellow">additionne les estimations</font> associées aux user stories qui ont été <font color="yellow">terminées</font> au cours de cette itération.
+<br>Ce total est appelé vélocité.
+<br>Elle permet valider ou réviser la planification de l'ensemble du projet.
+  </section>
 <section>
     <h2>Vélocité</h2>
 <img src="img/evolution_de_la_vélocité_moyenne.png">
